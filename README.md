@@ -34,5 +34,5 @@ Hay dos archivos principales de configuración que yt-dlp va a utilizar, uno par
 - [`ffmpeg`](https://www.ffmpeg.org/download.html) (the script should download it automatically) / (el script deberia descargarlo automaticamente)
 - [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) (the script should download it automatically) / (el script deberia descargarlo automaticamente)
 
-### COPYRIGHT
+# COPYRIGHT
 This script and all its parts and related files are released into the public domain. I do not own or have participated in the development of yt-dlp, ffmpeg, or anything other than the python scripts in the root directory of this repository. All the credit goes to the open source programs used, which all are also in the public domain, and its creators and developers. For any other questions in this regard refer to the [GNU General Public License website](http://www.gnu.org/licenses/gpl-3.0) or the v3 copy present in this repository.
