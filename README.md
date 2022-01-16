@@ -1,5 +1,6 @@
 # FPVD
 A minimal and Fool Proof Video Downloader script for Windows that is portable and only requires python to be executed.
+
 Un script mínimo y A Prueba de Tontos para Windows que es portable y solo requiere python para ser ejecutado. 
 
 ## English:
@@ -7,7 +8,7 @@ A minimal, light, portable, easy-to-use command line script for downloading vide
 Currently it only works out-of-the-box on Windows 10 (1903) build 17063 and above, as it does requires the `tar` command introduced in said version (which you *may* otherwise be able to install yourself in other versions of Windows).
 It is intended for people with little to no knowledge of CLIs, GNU, Linux, terminals, and all that juicy stuff.
 Just run the `Launcher.bat` file and follow the instructions to download video and audio files.
-The program works for YouTube, Vimeo, and all the other sites specified in 
+The program works for YouTube, Vimeo, and all the other sites compatible with [youtube-dl](https://github.com/ytdl-org).
 ***All the texts in this program are written in Spanish.***
 
 ### Configurations:
@@ -18,6 +19,7 @@ Un script de consola minimo, liviano, portable y facil de utilizar para descarga
 Actualmente solo funciona en la version de Windows 10 (1903) build 17063 en adelante, ya que requiere el comando `tar` introducido en dicha versión (el cual *podrías* llegar a poder instalar por tu cuenta en otras versiones de Windows).
 Esta hecho para personas con poco o nulo conocimiento de CLIs, GNU, Linux, terminales, y todas esas cosas jugosas.
 Solo ejecuta el archivo `Launcher.bat` y sigue las instrucciones para descargar tus archivos de audio y video.
+Este programa funciona para YouTube, Vimeo, y todos los otros sitios compatibles con [youtube-dl](https://github.com/ytdl-org).
 ***Todo el texto de este programa esta escrito en Español.***
 
 ### Configuraciones:
