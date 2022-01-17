@@ -17,6 +17,8 @@ if path.exists(r".\temp") == False:
     os.mkdir(r".\temp")
 if path.exists(r".\download") == False:
     os.mkdir(r".\download")
+if path.exists(r".\bin") == False:
+    os.mkdir(r".\bin")
 
 # Chequear si ffmpeg, ffplay, ffprobe y yt-dlp existen en el directorio bin
 ffmpegstat = path.exists(r".\bin\ffmpeg.exe")
