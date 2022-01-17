@@ -32,7 +32,7 @@ Hay dos archivos principales de configuración que yt-dlp va a utilizar, uno par
 ## Other dependencies:
 
 - `tar` (already included in Windows 10 1903 and above) / (ya incluido en Windows 10 1903 en adelante).
-- [`wget`](https://eternallybored.org/misc/wget/) (should already be in the /bin folder) / (ya debería estar en la carpeta /bin)
+- [`aria2`](https://github.com/aria2/aria2) (the script should download it automatically) / (el script deberia descargarlo automaticamente)
 - [`ffmpeg`](https://www.ffmpeg.org/download.html) (the script should download it automatically) / (el script deberia descargarlo automaticamente)
 - [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) (the script should download it automatically) / (el script deberia descargarlo automaticamente)
 
