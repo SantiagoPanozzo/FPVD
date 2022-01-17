@@ -1,0 +1,34 @@
+ ___      ___      __   __     ___  
+| __|    | _ \     \ \ / /    |   \ 
+| _|  _  |  _/  _   \   /  _  | |) |
+|_|  (_) |_|   (_)   \_/  (_) |___/ 
+
+   - Fool Proof Video Downloader -
+
+Antes de utilizar este programa, ten en cuenta que *necesita*
+python para poder funcionar. Si no tienes python en tu computadora
+o lo tienes pero ves que el programa no funciona, por favor
+descarga el instalador desde https://www.python.org/downloads/
+y cuando lo estes instalando asegurate de marcar la casilla que
+dice "add python to PATH" o algo similar a eso. Marca esa casilla
+o el programa no va a funcionar correctamente.
+
+Cuando tengas python instalado solo es cuestion de abrir el
+archivo "Launcher.bat" o simplemente "Launcher". Le das doble click
+y cuando te pida pulsar ENTER para instalar cosas, tu dale. Puede
+tardar unos minutos en descargar todo, y te lo va a preguntar un par
+de veces hasta tener todo listo, pero una vez termine ya no tendras
+que volver a hacerlo, es solo la primera vez.
+
+Cuando este todo instalado, el programa te preguntara si quieres
+descargar un video o un audio y luego te pedira el link, esta todo
+automatizado asi que no tendras que hacer nada, solo poner el link
+y ya se descargara en la carpeta "download".
+
+Asegurate de no tocar nada fuera de la carpeta download ya que podrias
+borrar sin querer algun archivo necesario. Disfruta!
+
+Si hay algun problema probablemente se arregle abriendo el "Updater.bat"
+que actualiza todos los programas necesarios. Y si no se arregla asi,
+descarga la ultima version de este programa desde 
+https://github.com/SnowieMischief/FPVD .
