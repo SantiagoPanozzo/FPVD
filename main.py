@@ -4,12 +4,12 @@ from os import path
 
 # Titulo
 print("""
- ___      ___      __   __     ___  
-| __|    | _ \     \ \ / /    |   \ 
-| _|  _  |  _/  _   \   /  _  | |) |
-|_|  (_) |_|   (_)   \_/  (_) |___/ 
+     ___      ___      __   __     ___  
+    | __|    | _ \     \ \ / /    |   \ 
+    | _|  _  |  _/  _   \   /  _  | |) |
+    |_|  (_) |_|   (_)   \_/  (_) |___/ 
 
-   - Fool Proof Video Downloader -
+      - Fool Proof Video Downloader -
 """)
 
 # Chequear si existen las carpetas necesarias y crearlas si no estan
@@ -42,8 +42,7 @@ else: print("Encontrado ytdlp!")
 # Ejecucion del script de descarga
 print("Todo funcionando correctamente, iniciando! \n")
 
-start = 1
-while start > 0:
+while True:
     exec(open('fetch.py').read())
     # Pregunta de descargar otro video
     print("\n¿Deseas descargar otro video/audio? (Introduce S o N y pulsa ENTER)")
