@@ -29,6 +29,6 @@ Asegurate de no tocar nada fuera de la carpeta download ya que podrias
 borrar sin querer algun archivo necesario. Disfruta!
 
 Si hay algun problema, probablemente se arregle abriendo el "Updater.bat"
-que actualiza todos los programas necesarios. Y si no se arregla asi,
-descarga la ultima version de este programa desde 
+que actualiza todos los programas necesarios. Si quieres actualizar
+el programa principal de manera manual, vuelve a descargar el zip desde: 
 https://github.com/SnowieMischief/FPVD .
