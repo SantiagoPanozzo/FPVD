@@ -3,8 +3,8 @@ import os
 from os import path
 import sys
 
-# Presentar opciones
-while True:
+# Definir funcion para presentar titulo de manera cómoda
+def titulo():
     os.system('cls')
     print("""
      ___      ___      __   __     ___  
@@ -14,6 +14,10 @@ while True:
 
       - Fool Proof Video Downloader -
 """)
+
+# Presentar opciones
+while True:
+    titulo()
     print("""
 Selecciona una opcion (escribe el numero y pulsa enter):
 1) Descargar video con audio en mp4 (Recomendado)
@@ -45,27 +49,11 @@ print('Por favor no toques nada hasta que el programa te avise que la descarga f
 # de yt-dlp apropiada
 if(opcion == 1):
     os.system(r'cmd /c ".\bin\yt-dlp.exe {} --config-location .\configs\bestmp4.conf" -P .\download'.format(link))
-    os.system('cls')
-    print("""
-     ___      ___      __   __     ___  
-    | __|    | _ \     \ \ / /    |   \ 
-    | _|  _  |  _/  _   \   /  _  | |) |
-    |_|  (_) |_|   (_)   \_/  (_) |___/ 
-
-      - Fool Proof Video Downloader -
-""")
+    titulo()
     print("\nDescarga completada con exito! \n")
     print('Tu video deberia estar en la subcarpeta download')
 elif(opcion == 2):
     os.system(r'cmd /c ".\bin\yt-dlp.exe {} --config-location .\configs\bestmp3.conf" -P .\download'.format(link))
-    os.system('cls')
-    print("""
-     ___      ___      __   __     ___  
-    | __|    | _ \     \ \ / /    |   \ 
-    | _|  _  |  _/  _   \   /  _  | |) |
-    |_|  (_) |_|   (_)   \_/  (_) |___/ 
-
-      - Fool Proof Video Downloader -
-""")
+    titulo()
     print("\nDescarga completada con exito! \n")
     print('Tu audio deberia estar en la subcarpeta download')
